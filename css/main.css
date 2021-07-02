@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+main p {
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+main div {
+  -webkit-hyphens: manual;
+      -ms-hyphens: manual;
+          hyphens: manual;
+}
+main article {
+  -webkit-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvbWFpbi5zY3NzIiwiLi4vcHJlZml4L21haW4uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usc0JBQUE7QUNDRjs7QURHRTtFQUNFLHFCQUFBO01BQUEsaUJBQUE7VUFBQSxhQUFBO0FDQUo7QURHRTtFQUNFLHVCQUFBO01BQUEsbUJBQUE7VUFBQSxlQUFBO0FDREo7QURJRTtFQUNFLHFCQUFBO01BQUEsaUJBQUE7VUFBQSxhQUFBO0FDRkoiLCJmaWxlIjoibWFpbi5jc3MifQ== */

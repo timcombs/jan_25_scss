@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+main p {
+  hyphens: auto;
+}
+main div {
+  hyphens: manual;
+}
+main article {
+  hyphens: none;
+}
+
+/*# sourceMappingURL=main.css.map */

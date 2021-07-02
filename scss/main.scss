@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+main {
+  p {
+    hyphens: auto;
+  }
+
+  div {
+    hyphens: manual;
+  }
+
+  article {
+    hyphens: none;
+  }
+}

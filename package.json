@@ -1,0 +1,14 @@
+{
+  "name": "jan_25_scss",
+  "version": "0.0.1",
+  "description": "test app to teach KV scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./scss/main.scss:./prefix/main.css",
+    "prefix": "postcss -w ./prefix/main.css --use autoprefixer nano -d ./css",
+    "allscss": "npm run sass | npm run prefix"
+  },
+  "author": "tim",
+  "license": "MIT"
+}
